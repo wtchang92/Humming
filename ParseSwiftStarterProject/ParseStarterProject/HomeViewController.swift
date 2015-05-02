@@ -9,10 +9,28 @@ import Parse
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet var signupButton: UIButton!
+    @IBOutlet var loginButton: UIButton!
+    @IBOutlet var userNameField: UITextField!
+    
+    
+    @IBOutlet var passwordField: UITextField!
+    
+    @IBAction func loginButtonClicked(sender: AnyObject) {
+        println("Login button clicked")
+        self.signupButton.hidden = true
+        self.loginButton.hidden = true
+      
+        self.userNameField.hidden = false
+        self.passwordField.hidden = false
+        
+    }
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        userNameField.hidden = true
+        passwordField.hidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
