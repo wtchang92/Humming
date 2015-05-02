@@ -17,17 +17,8 @@ import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-    let kClientId = "580b9247a5ee4b99ba9b9938958dc7ef"
-    let kCallbackURL = "humming-login://callback"
-   // let kTokenSwapURL = "http://localhost:1234/swap"
-    
+
     var window: UIWindow?
-    let kTokenRefreshServiceURL = ""
-  //  var trackPlayer: SPTAudioStreamingController?
-    
-    var session:SPTSession?
-    var kSessionUserDefaultsKey = "SpotifySession"
 
     //--------------------------------------
     // MARK: - UIApplicationDelegate

@@ -4,9 +4,10 @@
 //  Copyright 2011-present Parse Inc. All rights reserved.
 //
 
-#ifndef SpotifyDJ_SpotifyDJ_Bridging_Header_h
-#define SpotifyDJ_SpotifyDJ_Bridging_Header_h
+#ifndef ParseStarterProject_Bridging_Header_h
+#define ParseStarterProject_Bridging_Header_h
 
-#import <Spotify/Spotify.h>
+// If you are using Facebook, uncomment this line to get automatic import of the header inside your project.
+//#import <ParseFacebookUtils/PFFacebookUtils.h>
 
 #endif
