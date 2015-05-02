@@ -17,7 +17,7 @@ class SpotifyViewController: UIViewController {
         
         let auth = SPTAuth.defaultInstance()
         
-        let loginURL = auth.loginURLForClientId
+        let loginURL = auth.loginURLForClientId(<#clientId: String!#>, declaredRedirectURL: <#NSURL!#>)
     }
     
     override func didReceiveMemoryWarning() {
