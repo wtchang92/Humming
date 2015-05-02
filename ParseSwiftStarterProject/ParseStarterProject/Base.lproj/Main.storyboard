@@ -19,63 +19,46 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="legitsplash.png" translatesAutoresizingMaskIntoConstraints="NO" id="htw-e8-fG2">
-                                <rect key="frame" x="-9" y="0.0" width="384" height="667"/>
+                                <rect key="frame" x="-14" y="0.0" width="391" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4t-QH-4V7">
-                                <rect key="frame" x="197" y="571" width="160" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPw-Zh-aY6">
+                                <rect key="frame" x="113" y="241" width="150" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="fib-lQ-MKD"/>
-                                    <constraint firstAttribute="height" constant="47" id="qOd-Bz-PBY"/>
+                                    <constraint firstAttribute="height" constant="42" id="AWs-rS-TFw"/>
+                                    <constraint firstAttribute="width" constant="150" id="TmD-xu-9Lg"/>
                                 </constraints>
-                                <state key="normal" title="TEST HOLDER">
+                                <state key="normal" title="Login" image="login.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="loginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sHa-BF-Efz"/>
-                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="oD7-2B-dp5">
-                                <rect key="frame" x="21" y="516" width="332" height="41"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dQ-TW-Hfu">
-                                <rect key="frame" x="21" y="571" width="160" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xd2-xW-3is">
+                                <rect key="frame" x="113" y="291" width="150" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="5XU-gc-YXn"/>
-                                    <constraint firstAttribute="width" constant="160" id="8wh-yk-K58"/>
+                                    <constraint firstAttribute="width" constant="150" id="44g-NO-y1t"/>
+                                    <constraint firstAttribute="height" constant="42" id="zBL-2G-T7M"/>
                                 </constraints>
-                                <state key="normal" title="TEST HOLDER">
+                                <state key="normal" title="Register" image="signup.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="signUpPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lHk-sF-Lj8"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="d4t-QH-4V7" firstAttribute="leading" secondItem="6dQ-TW-Hfu" secondAttribute="trailing" constant="16" id="0jT-PS-5CB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="htw-e8-fG2" secondAttribute="trailing" constant="-16" id="3dK-2f-a9P"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oD7-2B-dp5" secondAttribute="trailing" constant="6" id="5d7-Wd-RxW"/>
-                            <constraint firstItem="d4t-QH-4V7" firstAttribute="leading" secondItem="6dQ-TW-Hfu" secondAttribute="trailing" constant="16" id="Bh3-Hm-ySn"/>
-                            <constraint firstItem="htw-e8-fG2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-25" id="FFM-ap-mip"/>
-                            <constraint firstItem="oD7-2B-dp5" firstAttribute="top" secondItem="htw-e8-fG2" secondAttribute="top" constant="574" id="G9a-8V-YA2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="d4t-QH-4V7" secondAttribute="trailing" constant="2" id="NCz-Yg-3JU"/>
-                            <constraint firstItem="oD7-2B-dp5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="TGW-kP-S36"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oD7-2B-dp5" secondAttribute="bottom" constant="110" id="WzA-eh-etW"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d4t-QH-4V7" secondAttribute="bottom" constant="49" id="XU4-Rd-PxS"/>
-                            <constraint firstItem="oD7-2B-dp5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="496" id="aw6-eN-fBz"/>
-                            <constraint firstItem="6dQ-TW-Hfu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="dE9-bW-ZIw"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6dQ-TW-Hfu" secondAttribute="bottom" constant="49" id="e63-zh-fPx"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="htw-e8-fG2" secondAttribute="bottom" id="hv3-yC-9Us"/>
-                            <constraint firstItem="htw-e8-fG2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="vMk-u6-tTh"/>
+                            <constraint firstItem="xd2-xW-3is" firstAttribute="top" secondItem="KPw-Zh-aY6" secondAttribute="bottom" constant="8" id="4Jr-cx-W0t"/>
+                            <constraint firstItem="KPw-Zh-aY6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="221" id="KUd-fN-Eno"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="htw-e8-fG2" secondAttribute="trailing" constant="-18" id="UpD-fh-agz"/>
+                            <constraint firstAttribute="centerX" secondItem="xd2-xW-3is" secondAttribute="centerX" id="Z8H-We-qgh"/>
+                            <constraint firstItem="htw-e8-fG2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-30" id="d9Q-de-HxQ"/>
+                            <constraint firstItem="htw-e8-fG2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="e0w-qp-eWy"/>
+                            <constraint firstAttribute="centerX" secondItem="KPw-Zh-aY6" secondAttribute="centerX" id="hUO-0L-RtU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="htw-e8-fG2" secondAttribute="bottom" id="qpG-pS-UHh"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="G9a-8V-YA2"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="N5A-AJ-cLS"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -84,7 +67,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="button2x.png" width="478" height="60"/>
         <image name="legitsplash.png" width="2883" height="4747"/>
+        <image name="login.png" width="942" height="245"/>
+        <image name="signup.png" width="942" height="245"/>
     </resources>
 </document>

@@ -9,14 +9,7 @@ import Parse
 
 class HomeViewController: UIViewController {
 
-    @IBAction func signUpPressed(sender: AnyObject) {
-        println("We working!~")
-    }
-    
-    
-    @IBAction func loginPressed(sender: AnyObject) {
-        println("Guccigucci")
-    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

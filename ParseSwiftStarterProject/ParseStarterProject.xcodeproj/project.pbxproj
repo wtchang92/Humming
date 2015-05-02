@@ -10,6 +10,8 @@
 		654A575A1AF5559500EDEAB0 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A57581AF5559500EDEAB0 /* button2.png */; };
 		654A575B1AF5559500EDEAB0 /* button2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A57591AF5559500EDEAB0 /* button2x.png */; };
 		654A575D1AF555A800EDEAB0 /* legitsplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A575C1AF555A800EDEAB0 /* legitsplash.png */; };
+		654A57601AF55E2F00EDEAB0 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A575E1AF55E2F00EDEAB0 /* login.png */; };
+		654A57611AF55E2F00EDEAB0 /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A575F1AF55E2F00EDEAB0 /* signup.png */; };
 		81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814A1A49DA1800E65899 /* AppDelegate.swift */; };
 		81BA814D1A49DA1800E65899 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814C1A49DA1800E65899 /* HomeViewController.swift */; };
 		81BA81501A49DA1800E65899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BA814E1A49DA1800E65899 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 		654A57581AF5559500EDEAB0 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
 		654A57591AF5559500EDEAB0 /* button2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2x.png; sourceTree = "<group>"; };
 		654A575C1AF555A800EDEAB0 /* legitsplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legitsplash.png; sourceTree = "<group>"; };
+		654A575E1AF55E2F00EDEAB0 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		654A575F1AF55E2F00EDEAB0 /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup.png; sourceTree = "<group>"; };
 		81BA81451A49DA1800E65899 /* ParseStarterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseStarterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BA81491A49DA1800E65899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81BA814A1A49DA1800E65899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		81BA81471A49DA1800E65899 /* ParseStarterProject */ = {
 			isa = PBXGroup;
 			children = (
+				654A575E1AF55E2F00EDEAB0 /* login.png */,
+				654A575F1AF55E2F00EDEAB0 /* signup.png */,
 				654A575C1AF555A800EDEAB0 /* legitsplash.png */,
 				654A57581AF5559500EDEAB0 /* button2.png */,
 				654A57591AF5559500EDEAB0 /* button2x.png */,
@@ -195,8 +201,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81BA81501A49DA1800E65899 /* Main.storyboard in Resources */,
+				654A57601AF55E2F00EDEAB0 /* login.png in Resources */,
 				654A575D1AF555A800EDEAB0 /* legitsplash.png in Resources */,
 				654A575B1AF5559500EDEAB0 /* button2x.png in Resources */,
+				654A57611AF55E2F00EDEAB0 /* signup.png in Resources */,
 				81BA81521A49DA1800E65899 /* Images.xcassets in Resources */,
 				654A575A1AF5559500EDEAB0 /* button2.png in Resources */,
 			);
