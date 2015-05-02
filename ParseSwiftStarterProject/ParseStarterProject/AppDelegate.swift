@@ -9,6 +9,7 @@ import UIKit
 import Bolts
 import Parse
 
+
 // If you want to use any of the UI components, uncomment this line
 // import ParseUI
 
@@ -17,6 +18,24 @@ import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    let kClientId = "580b9247a5ee4b99ba9b9938958dc7ef"
+    let kCallbackURL = "humming-login://callback"
+    let kTokenSwapURL = "http://localhost:1234/swap"
+
+    
+    var session:SPTSession?
+    
+    var player:SPTAudioStreamingController?
+    
+    func delay(delay:Double, closure:()->()) {
+        dispatch_after(
+            dispatch_time(
+                DISPATCH_TIME_NOW,
+                Int64(delay * Double(NSEC_PER_SEC))
+            ),
+            dispatch_get_main_queue(), closure)
+    }
 
     var window: UIWindow?
 
