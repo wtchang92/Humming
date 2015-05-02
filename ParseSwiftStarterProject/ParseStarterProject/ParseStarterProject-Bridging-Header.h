@@ -1,14 +1,13 @@
 //
-//  ParseStartProject-Header.m
-//  ParseStarterProject
+//  ParseStarterProject-Bridging-Header.h
 //
-//  Created by Tim Chang on 5/2/15.
-//  Copyright (c) 2015 Parse. All rights reserved.
+//  Copyright 2011-present Parse Inc. All rights reserved.
 //
 
-#ifndef SpotifyDJ_SpotifyDJ_Bridging_Header_h
-#define SpotifyDJ_SpotifyDJ_Bridging_Header_h
+#ifndef ParseStarterProject_Bridging_Header_h
+#define ParseStarterProject_Bridging_Header_h
 
-#import <Spotify/Spotify.h>
+// If you are using Facebook, uncomment this line to get automatic import of the header inside your project.
+//#import <ParseFacebookUtils/PFFacebookUtils.h>
 
 #endif
