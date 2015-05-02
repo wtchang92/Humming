@@ -1,7 +1,9 @@
 //
-//  ParseStarterProject-Bridging-Header.h
+//  ParseStartProject-Header.m
+//  ParseStarterProject
 //
-//  Copyright 2011-present Parse Inc. All rights reserved.
+//  Created by Tim Chang on 5/2/15.
+//  Copyright (c) 2015 Parse. All rights reserved.
 //
 
 #ifndef SpotifyDJ_SpotifyDJ_Bridging_Header_h
