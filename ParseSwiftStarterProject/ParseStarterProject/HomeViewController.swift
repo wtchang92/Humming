@@ -7,8 +7,17 @@
 import UIKit
 import Parse
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
+    @IBAction func signUpPressed(sender: AnyObject) {
+        println("We working!~")
+    }
+    
+    
+    @IBAction func loginPressed(sender: AnyObject) {
+        println("Guccigucci")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -17,6 +26,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
 }
 
