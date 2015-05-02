@@ -12,6 +12,7 @@
 		654A575D1AF555A800EDEAB0 /* legitsplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A575C1AF555A800EDEAB0 /* legitsplash.png */; };
 		654A57601AF55E2F00EDEAB0 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A575E1AF55E2F00EDEAB0 /* login.png */; };
 		654A57611AF55E2F00EDEAB0 /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A575F1AF55E2F00EDEAB0 /* signup.png */; };
+		654A57631AF569D400EDEAB0 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654A57621AF569D400EDEAB0 /* Spotify.framework */; };
 		81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814A1A49DA1800E65899 /* AppDelegate.swift */; };
 		81BA814D1A49DA1800E65899 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814C1A49DA1800E65899 /* HomeViewController.swift */; };
 		81BA81501A49DA1800E65899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BA814E1A49DA1800E65899 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		654A575C1AF555A800EDEAB0 /* legitsplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legitsplash.png; sourceTree = "<group>"; };
 		654A575E1AF55E2F00EDEAB0 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
 		654A575F1AF55E2F00EDEAB0 /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup.png; sourceTree = "<group>"; };
+		654A57621AF569D400EDEAB0 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
 		81BA81451A49DA1800E65899 /* ParseStarterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseStarterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BA81491A49DA1800E65899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81BA814A1A49DA1800E65899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			files = (
 				81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */,
 				81BA817D1A49E0EA00E65899 /* MobileCoreServices.framework in Frameworks */,
+				654A57631AF569D400EDEAB0 /* Spotify.framework in Frameworks */,
 				81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */,
 				81BA81791A49E0DB00E65899 /* AudioToolbox.framework in Frameworks */,
 				81BA81771A49E0D500E65899 /* libsqlite3.dylib in Frameworks */,
@@ -120,6 +123,7 @@
 		81BA816A1A49DB5600E65899 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				654A57621AF569D400EDEAB0 /* Spotify.framework */,
 				81BA816B1A49DB6800E65899 /* Bolts.framework */,
 				81BA816C1A49DB6800E65899 /* Parse.framework */,
 				81BA816D1A49DB6800E65899 /* ParseCrashReporting.framework */,
