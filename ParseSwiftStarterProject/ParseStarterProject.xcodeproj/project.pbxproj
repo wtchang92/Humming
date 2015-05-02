@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		654A57531AF5470B00EDEAB0 /* button2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A57521AF5470B00EDEAB0 /* button2x.png */; };
+		654A57551AF5482C00EDEAB0 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A57541AF5482C00EDEAB0 /* button2.png */; };
+		654A57571AF54B3400EDEAB0 /* legitsplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A57561AF54B3400EDEAB0 /* legitsplash.png */; };
 		81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814A1A49DA1800E65899 /* AppDelegate.swift */; };
 		81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814C1A49DA1800E65899 /* ViewController.swift */; };
 		81BA81501A49DA1800E65899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BA814E1A49DA1800E65899 /* Main.storyboard */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		654A57521AF5470B00EDEAB0 /* button2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2x.png; sourceTree = "<group>"; };
+		654A57541AF5482C00EDEAB0 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		654A57561AF54B3400EDEAB0 /* legitsplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legitsplash.png; sourceTree = "<group>"; };
 		81BA81451A49DA1800E65899 /* ParseStarterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseStarterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BA81491A49DA1800E65899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81BA814A1A49DA1800E65899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +90,9 @@
 		81BA81471A49DA1800E65899 /* ParseStarterProject */ = {
 			isa = PBXGroup;
 			children = (
+				654A57521AF5470B00EDEAB0 /* button2x.png */,
+				654A57541AF5482C00EDEAB0 /* button2.png */,
+				654A57561AF54B3400EDEAB0 /* legitsplash.png */,
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				81BA814C1A49DA1800E65899 /* ViewController.swift */,
 				81BA814E1A49DA1800E65899 /* Main.storyboard */,
@@ -185,6 +194,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654A57551AF5482C00EDEAB0 /* button2.png in Resources */,
+				654A57571AF54B3400EDEAB0 /* legitsplash.png in Resources */,
+				654A57531AF5470B00EDEAB0 /* button2x.png in Resources */,
 				81BA81501A49DA1800E65899 /* Main.storyboard in Resources */,
 				81BA81521A49DA1800E65899 /* Images.xcassets in Resources */,
 			);
