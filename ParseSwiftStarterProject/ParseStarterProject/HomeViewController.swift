@@ -12,7 +12,7 @@ class HomeViewController: UIViewController {
     @IBOutlet var signupButton: UIButton!
     @IBOutlet var loginButton: UIButton!
     @IBOutlet var userNameField: UITextField!
-    
+    // Test
     
     @IBOutlet var passwordField: UITextField!
     
