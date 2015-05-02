@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64B125CF1AF556640073BC9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B125CE1AF556640073BC9A /* AVFoundation.framework */; };
+		64B125D71AF55A5B0073BC9A /* ParseStarterProject-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 64B125D61AF55A5B0073BC9A /* ParseStarterProject-Bridging-Header.h */; };
+		64B125DB1AF563DE0073BC9A /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B125DA1AF563DE0073BC9A /* Spotify.framework */; };
+		64B125E01AF565E80073BC9A /* spotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B125DF1AF565E80073BC9A /* spotifyViewController.swift */; };
 		654A575A1AF5559500EDEAB0 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A57581AF5559500EDEAB0 /* button2.png */; };
 		654A575B1AF5559500EDEAB0 /* button2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A57591AF5559500EDEAB0 /* button2x.png */; };
 		654A575D1AF555A800EDEAB0 /* legitsplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 654A575C1AF555A800EDEAB0 /* legitsplash.png */; };
@@ -29,6 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64B125CE1AF556640073BC9A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		64B125D61AF55A5B0073BC9A /* ParseStarterProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ParseStarterProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		64B125DA1AF563DE0073BC9A /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		64B125DF1AF565E80073BC9A /* spotifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spotifyViewController.swift; sourceTree = "<group>"; };
 		654A57581AF5559500EDEAB0 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
 		654A57591AF5559500EDEAB0 /* button2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2x.png; sourceTree = "<group>"; };
 		654A575C1AF555A800EDEAB0 /* legitsplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legitsplash.png; sourceTree = "<group>"; };
@@ -50,7 +58,6 @@
 		81BA817C1A49E0EA00E65899 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		81BA81801A49E10C00E65899 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		81BA81821A49E27F00E65899 /* ParseStarterProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ParseStarterProject-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +65,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B125CF1AF556640073BC9A /* AVFoundation.framework in Frameworks */,
 				81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */,
 				81BA817D1A49E0EA00E65899 /* MobileCoreServices.framework in Frameworks */,
 				81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */,
 				81BA81791A49E0DB00E65899 /* AudioToolbox.framework in Frameworks */,
 				81BA81771A49E0D500E65899 /* libsqlite3.dylib in Frameworks */,
 				81BA81711A49DB6800E65899 /* Parse.framework in Frameworks */,
+				64B125DB1AF563DE0073BC9A /* Spotify.framework in Frameworks */,
 				81BA81721A49DB6800E65899 /* ParseCrashReporting.framework in Frameworks */,
 				81BA81731A49DB6800E65899 /* ParseFacebookUtils.framework in Frameworks */,
 				81BA81811A49E10C00E65899 /* ParseUI.framework in Frameworks */,
@@ -102,6 +111,7 @@
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				81BA814C1A49DA1800E65899 /* HomeViewController.swift */,
 				81BA814E1A49DA1800E65899 /* Main.storyboard */,
+				64B125DF1AF565E80073BC9A /* spotifyViewController.swift */,
 				81BA81511A49DA1800E65899 /* Images.xcassets */,
 				81BA81481A49DA1800E65899 /* Supporting Files */,
 			);
@@ -112,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				81BA81491A49DA1800E65899 /* Info.plist */,
-				81BA81821A49E27F00E65899 /* ParseStarterProject-Bridging-Header.h */,
+				64B125D61AF55A5B0073BC9A /* ParseStarterProject-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 		81BA816A1A49DB5600E65899 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64B125DA1AF563DE0073BC9A /* Spotify.framework */,
+				64B125CE1AF556640073BC9A /* AVFoundation.framework */,
 				81BA816B1A49DB6800E65899 /* Bolts.framework */,
 				81BA816C1A49DB6800E65899 /* Parse.framework */,
 				81BA816D1A49DB6800E65899 /* ParseCrashReporting.framework */,
@@ -236,6 +248,8 @@
 			files = (
 				81BA814D1A49DA1800E65899 /* HomeViewController.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
+				64B125D71AF55A5B0073BC9A /* ParseStarterProject-Bridging-Header.h in Sources */,
+				64B125E01AF565E80073BC9A /* spotifyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +357,7 @@
 				);
 				INFOPLIST_FILE = ParseStarterProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ParseStarterProject/ParseStarterProject-Bridging-Header.h";
 			};
@@ -359,6 +374,7 @@
 				);
 				INFOPLIST_FILE = ParseStarterProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ParseStarterProject/ParseStarterProject-Bridging-Header.h";
 			};
